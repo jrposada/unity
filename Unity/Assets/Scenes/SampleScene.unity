@@ -226,8 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 762369390}
-  - component: {fileID: 762369391}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,25 +249,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &762369391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762369389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7003c3c1ac28a5f49b32c7fb6ebcae0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!43 &1572908891
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh82282
+  m_Name: pb_Mesh24534
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -440,7 +427,7 @@ GameObject:
   - component: {fileID: 1850971155}
   - component: {fileID: 1850971154}
   - component: {fileID: 1850971153}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,6 +772,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3623608157463088945, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
+      propertyPath: m_Height
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623608157463088945, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623608157463088945, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
+      propertyPath: m_Center.y
+      value: 0.89
+      objectReference: {fileID: 0}
     - target: {fileID: 5635450508210655365, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -832,6 +831,14 @@ PrefabInstance:
     - target: {fileID: 5635450508211080357, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
       propertyPath: m_Name
       value: ClazyRunner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635450508521291323, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
+      propertyPath: environmentLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635450508521291324, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de5bc23f37924fe4a8edad585c5c4683, type: 3}
